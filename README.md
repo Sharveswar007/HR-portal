@@ -12,6 +12,10 @@
 
 *Enterprise HR dashboard for managing candidates, reviewing assessments, monitoring proctoring events, and making data-driven hiring decisions.*
 
+<br />
+<img src="./public/login.png" alt="HIRENEX HR Portal Login" width="100%" />
+<br />
+
 [Features](#features) • [Analytics](#candidate-analytics) • [Installation](#installation) • [Structure](#project-structure)
 
 </div>
