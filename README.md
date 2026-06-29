@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🎯 HIRENEX - HR Portal
+# HIRENEX - HR Portal
 
 ### AI-Powered Recruitment Analytics Dashboard
 
@@ -12,30 +12,30 @@
 
 *Enterprise HR dashboard for managing candidates, reviewing assessments, monitoring proctoring events, and making data-driven hiring decisions.*
 
-[📊 Features](#-features) • [🔍 Analytics](#-candidate-analytics) • [🛠️ Installation](#%EF%B8%8F-installation) • [📁 Structure](#-project-structure)
+[Features](#features) • [Analytics](#candidate-analytics) • [Installation](#installation) • [Structure](#project-structure)
 
 </div>
 
 ---
 
-## 📋 Table of Contents
+## Table of Contents
 
-- [Overview](#-overview)
-- [Features](#-features)
-- [Dashboard Screenshots](#-dashboard-preview)
-- [Candidate Analytics](#-candidate-analytics)
-- [Proctoring Review](#-proctoring-review)
-- [Resume Shortlisting](#-bulk-resume-shortlisting)
-- [Tech Stack](#-tech-stack)
-- [Installation](#%EF%B8%8F-installation)
-- [Environment Variables](#-environment-variables)
-- [API Endpoints](#-api-endpoints)
-- [Project Structure](#-project-structure)
-- [Deployment](#-deployment)
+- [Overview](#overview)
+- [Features](#features)
+- [Dashboard Screenshots](#dashboard-preview)
+- [Candidate Analytics](#candidate-analytics)
+- [Proctoring Review](#proctoring-review)
+- [Resume Shortlisting](#bulk-resume-shortlisting)
+- [Tech Stack](#tech-stack)
+- [Installation](#installation)
+- [Environment Variables](#environment-variables)
+- [API Endpoints](#api-endpoints)
+- [Project Structure](#project-structure)
+- [Deployment](#deployment)
 
 ---
 
-## 🎯 Overview
+## Overview
 
 HIRENEX HR Portal is the recruiter-facing dashboard of the HIRENEX recruitment ecosystem. It provides comprehensive analytics, candidate management, and AI-powered hiring recommendations to streamline the recruitment workflow.
 
@@ -43,25 +43,25 @@ HIRENEX HR Portal is the recruiter-facing dashboard of the HIRENEX recruitment e
 
 | Feature | Description |
 |---------|-------------|
-| **Recruitment Dashboard** | Real-time overview of pipeline metrics and candidate flow |
-| **Candidate Analytics** | Deep-dive into individual candidate performance with visualizations |
-| **Proctoring Review** | Live monitoring and historical audit of assessment integrity |
-| **Bulk Resume Processing** | AI-powered resume parsing and job matching at scale |
-| **Hiring Decisions** | AI recommendations with manual override capability |
-| **Job Management** | Create, edit, and manage job postings |
+| **Recruitment Dashboard**| Real-time overview of pipeline metrics and candidate flow |
+| **Candidate Analytics**| Deep-dive into individual candidate performance with visualizations |
+| **Proctoring Review**| Live monitoring and historical audit of assessment integrity |
+| **Bulk Resume Processing**| AI-powered resume parsing and job matching at scale |
+| **Hiring Decisions**| AI recommendations with manual override capability |
+| **Job Management**| Create, edit, and manage job postings |
 
 ---
 
-## ✨ Features
+## Features
 
-### 📊 **HR Dashboard**
+### **HR Dashboard**
 - **Pipeline Overview**: Total candidates, completed assessments, pending reviews
 - **Score Averages**: Technical, Psychometric, Coding, and Integrity scores
 - **Top Performers**: Ranked list of best-performing candidates
 - **Recent Activity**: Latest candidate submissions and job applications
 - **Active Jobs**: Quick view of open positions with applicant counts
 
-### 👤 **Candidate Detail View**
+### **Candidate Detail View**
 Comprehensive candidate profile with multiple tabs:
 
 #### Overview Tab
@@ -72,7 +72,7 @@ Comprehensive candidate profile with multiple tabs:
 - Social links (LinkedIn, GitHub, Portfolio)
 
 #### Assessment Scores Tab
-- **Total Score** with breakdown visualization
+- **Total Score**with breakdown visualization
 - **Technical Score**: MCQ performance analysis
 - **Psychometric Score**: Personality profile radar chart
 - **Coding Score**: Code submission results with test case breakdown
@@ -91,7 +91,7 @@ Comprehensive candidate profile with multiple tabs:
 - **Strengths & Weaknesses**: AI-identified traits
 - **Skills Gap Analysis**: Missing required skills
 
-### 📈 **Assessment Analytics**
+### **Assessment Analytics**
 - **Score Distribution Charts**: Bar charts showing performance breakdown
 - **Radar Charts**: Psychometric profile visualization (Big Five traits)
 - **Competency Mapping**: Skill-to-score correlation analysis
@@ -99,7 +99,7 @@ Comprehensive candidate profile with multiple tabs:
 
 ---
 
-## 🔒 Proctoring Review
+## Proctoring Review
 
 Real-time and historical proctoring event management.
 
@@ -128,7 +128,7 @@ Real-time and historical proctoring event management.
 
 ---
 
-## 📄 Bulk Resume Shortlisting
+## Bulk Resume Shortlisting
 
 AI-powered batch processing of candidate resumes.
 
@@ -156,42 +156,42 @@ AI-powered batch processing of candidate resumes.
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 ### Core Framework
 | Category | Technology | Version |
 |----------|------------|---------|
-| **Framework** | Next.js (App Router) | 16.1 |
-| **Language** | TypeScript | 5.0 |
-| **UI Library** | React | 19.2 |
-| **Database** | Supabase (PostgreSQL) | Latest |
-| **Authentication** | Supabase Auth | SSR |
+| **Framework**| Next.js (App Router) | 16.1 |
+| **Language**| TypeScript | 5.0 |
+| **UI Library**| React | 19.2 |
+| **Database**| Supabase (PostgreSQL) | Latest |
+| **Authentication**| Supabase Auth | SSR |
 
 ### Frontend & UI
 | Technology | Purpose |
 |------------|---------|
-| **Tailwind CSS 4** | Utility-first styling |
-| **Framer Motion** | Animations and transitions |
-| **Radix UI** | Accessible component primitives |
-| **Lucide React** | Icon system |
-| **Recharts** | Data visualization (charts, graphs) |
-| **Sonner** | Toast notifications |
+| **Tailwind CSS 4**| Utility-first styling |
+| **Framer Motion**| Animations and transitions |
+| **Radix UI**| Accessible component primitives |
+| **Lucide React**| Icon system |
+| **Recharts**| Data visualization (charts, graphs) |
+| **Sonner**| Toast notifications |
 
 ### Data & Documents
 | Technology | Purpose |
 |------------|---------|
-| **pdf-parse** | PDF text extraction |
-| **pdfjs-dist** | PDF rendering |
-| **unpdf** | Advanced PDF parsing |
+| **pdf-parse**| PDF text extraction |
+| **pdfjs-dist**| PDF rendering |
+| **unpdf**| Advanced PDF parsing |
 
 ---
 
-## 🛠️ Installation
+## Installation
 
 ### Prerequisites
-- **Node.js** 18+ (LTS recommended)
+- **Node.js**18+ (LTS recommended)
 - **npm**, **yarn**, **pnpm**, or **bun**
-- **Supabase** account with Service Role Key
+- **Supabase**account with Service Role Key
 - Access to [HIRENEX Candidate Portal](https://github.com/magi8101/candidate-portal) database
 
 ### Quick Start
@@ -243,15 +243,15 @@ SUPABASE_SERVICE_ROLE_KEY=your-service-role-key
 
 | Variable | Required | Description |
 |----------|----------|-------------|
-| `NEXT_PUBLIC_SUPABASE_URL` | ✅ | Your Supabase project URL |
-| `NEXT_PUBLIC_SUPABASE_ANON_KEY` | ✅ | Supabase anonymous/public key |
-| `SUPABASE_SERVICE_ROLE_KEY` | ✅ | Service role key for bypassing RLS |
+| `NEXT_PUBLIC_SUPABASE_URL` | Yes | Your Supabase project URL |
+| `NEXT_PUBLIC_SUPABASE_ANON_KEY` | Yes | Supabase anonymous/public key |
+| `SUPABASE_SERVICE_ROLE_KEY` | Yes | Service role key for bypassing RLS |
 
-> ⚠️ **Security Note**: The Service Role Key bypasses Row Level Security. Never expose it on the client side.
+>  **Security Note**: The Service Role Key bypasses Row Level Security. Never expose it on the client side.
 
 ---
 
-## 🚀 API Endpoints
+## API Endpoints
 
 ### Candidate APIs
 | Endpoint | Method | Description |
@@ -266,7 +266,7 @@ SUPABASE_SERVICE_ROLE_KEY=your-service-role-key
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 src/
@@ -307,7 +307,7 @@ src/
 
 ---
 
-## 📊 Dashboard Preview
+## Dashboard Preview
 
 ### Main Dashboard
 - Pipeline statistics cards
@@ -324,7 +324,7 @@ src/
 
 ---
 
-## 🚀 Deployment
+## Deployment
 
 ### Vercel (Recommended)
 ```bash
@@ -351,13 +351,13 @@ CMD ["npm", "start"]
 
 ---
 
-## 🔗 Related Projects
+## Related Projects
 
-- **[HIRENEX Candidate Portal](https://github.com/magi8101/candidate-portal)** - Candidate-facing assessment platform
+- **[HIRENEX Candidate Portal](https://github.com/magi8101/candidate-portal)**- Candidate-facing assessment platform
 
 ---
 
-## 📄 License
+## License
 
 MIT License - feel free to use for learning, development, and production.
 
@@ -365,12 +365,12 @@ MIT License - feel free to use for learning, development, and production.
 
 <div align="center">
 
-### Built with ❤️ by HIRENEX Team
+### Built by HIRENEX Team
 
 **Next.js** • **Supabase** • **Recharts** • **Tailwind CSS**
 
 ---
 
-[⬆ Back to Top](#-hirenex---hr-portal)
+[Back to Top](#hirenex---hr-portal)
 
 </div>
